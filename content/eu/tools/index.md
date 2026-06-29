@@ -2,7 +2,8 @@
 # THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
 # To update, run: python3 scripts/update-tools.py --server https://usegalaxy.eu --name "European Galaxy" --output content/eu/tools/index.md
 title: European Galaxy Tools
-description: "4240 tools and counting"
+description: "4309 tools and counting"
+components: true
 ---
 
 
@@ -57,7 +58,7 @@ description: "4240 tools and counting"
 [NFDI4Earth OneStop4All Importer](https://usegalaxy.eu/root?tool_id=nfdi4earth_os4a "downloads content via NFDI4Earth&#x27;s OneStop4All search user interface")
 [OBIS occurences](https://usegalaxy.eu/root?tool_id=obis_data "retrieve data")
 [OmicsDI](https://usegalaxy.eu/root?tool_id=omicsdi "Sync dataset&#x27;s files from OmicsDI")
-[OpenAlex explorer](https://usegalaxy.eu/root?tool_id=openalex_explorer "Fetch citing papers from OpenAlex using DOI, openAlex ID, or title")
+[OpenAlex explorer](https://usegalaxy.eu/root?tool_id=openalex_explorer "Fetch works, citations, authors, concepts, and publications from OpenAlex")
 [Protein Database Downloader](https://usegalaxy.eu/root?tool_id=dbbuilder "")
 [Ratmine](https://usegalaxy.eu/root?tool_id=ratmine "server")
 [Retrieve ENA data](https://usegalaxy.eu/root?tool_id=enasearch_retrieve_data "(other than taxon and project)")
@@ -164,6 +165,7 @@ description: "4240 tools and counting"
 [Advanced Cut](https://usegalaxy.eu/root?tool_id=tp_cut_tool "columns from a table (cut)")
 [Arithmetic Operations](https://usegalaxy.eu/root?tool_id=tables_arithmetic_operations "on tables")
 [Change Case](https://usegalaxy.eu/root?tool_id=ChangeCase "of selected columns")
+[Co-occurrence Analysis](https://usegalaxy.eu/root?tool_id=nlp_cooccurrence_analysis "")
 [Column Regex Find And Replace](https://usegalaxy.eu/root?tool_id=regexColumn1 "")
 [Compute](https://usegalaxy.eu/root?tool_id=Add_a_column1 "on rows")
 [Concatenate datasets](https://usegalaxy.eu/root?tool_id=tp_cat "tail-to-head (cat)")
@@ -223,6 +225,7 @@ description: "4240 tools and counting"
 [Unique](https://usegalaxy.eu/root?tool_id=tp_sorted_uniq "occurrences of each record")
 [Unique](https://usegalaxy.eu/root?tool_id=bg_uniq "occurrences of each record")
 [Unique lines](https://usegalaxy.eu/root?tool_id=tp_uniq_tool "assuming sorted input file")
+[VADER Sentiment Analysis](https://usegalaxy.eu/root?tool_id=vader_sentiment "")
 [cast](https://usegalaxy.eu/root?tool_id=cast "expand combinations of variables:values to columnar format")
 [diff](https://usegalaxy.eu/root?tool_id=diff "analyzes two files and generates an unidiff text file with information about the differences and an optional Html report")
 [jq](https://usegalaxy.eu/root?tool_id=jq "query and transform JSON documents")
@@ -358,7 +361,7 @@ description: "4240 tools and counting"
 [UniProt](https://usegalaxy.eu/root?tool_id=uniprot "ID mapping and retrieval")
 [Wiggle-to-Interval](https://usegalaxy.eu/root?tool_id=wiggle2simple1 "converter")
 [ab1 to FASTQ converter](https://usegalaxy.eu/root?tool_id=ab1_fastq_converter "")
-[axtChain](https://usegalaxy.eu/root?tool_id=ucsc_axtchain "Chain together axt alignments")
+[axtChain](https://usegalaxy.eu/root?tool_id=ucsc_axtchain "chain together axt or psl alignments")
 [axtToMaf](https://usegalaxy.eu/root?tool_id=ucsc_axtomaf "Convert dataset from axt to MAF format")
 [bax2bam](https://usegalaxy.eu/root?tool_id=bax2bam "converts PacBio basecall format (bax.h5) into BAM")
 [bed to protein map](https://usegalaxy.eu/root?tool_id=bed_to_protein_map "genomic location of proteins for MVP")
@@ -860,6 +863,7 @@ description: "4240 tools and counting"
 [Fasta Translate](https://usegalaxy.eu/root?tool_id=edu.tamu.cpt.fasta.seq_trans "Translate fasta file")
 [Filter with SortMeRNA](https://usegalaxy.eu/root?tool_id=bg_sortmerna "of ribosomal RNAs in metatranscriptomic data")
 [Find Nested Alternate ORFs (nAlt-ORFs)](https://usegalaxy.eu/root?tool_id=find_nested_alt_orfs "from BED and 2bit/FASTA")
+[FlavoTyper](https://usegalaxy.eu/root?tool_id=flavotyper "in silico serotyping of Flavobacterium psychrophilum")
 [Format](https://usegalaxy.eu/root?tool_id=picrust_format_tree_and_trait_table "tree and trait tables")
 [Funannotate assembly clean](https://usegalaxy.eu/root?tool_id=funannotate_clean "")
 [Funannotate compare](https://usegalaxy.eu/root?tool_id=funannotate_compare "annotations")
@@ -900,6 +904,10 @@ description: "4240 tools and counting"
 [InterProScan](https://usegalaxy.eu/root?tool_id=interproscan "functional annotation")
 [Interrupted gene detection tool](https://usegalaxy.eu/root?tool_id=edu.tamu.cpt2.phage.intron_detection "based on nearby protein blast results")
 [Intersect and Adjacent](https://usegalaxy.eu/root?tool_id=edu.tamu.cpt.gff3.intersect_and_adjacent "Outputs nearby top-level GFF features from two GFF3 files")
+[KAT Cold](https://usegalaxy.eu/root?tool_id=kat_cold "Contig length and duplication analysis")
+[KAT Filter Kmer](https://usegalaxy.eu/root?tool_id=kat_filter_kmer "filters k-mers to those within and outside defined bounds")
+[KAT Filter Seq](https://usegalaxy.eu/root?tool_id=kat_filter_seq "filters sequences based on k-mer content")
+[KAT Sect](https://usegalaxy.eu/root?tool_id=kat_sect "estimates k-mer coverage across sequences")
 [KOBAS Annotate](https://usegalaxy.eu/root?tool_id=kobas_annotate "KEGG Orthology Based Annotation System")
 [KOBAS Identify](https://usegalaxy.eu/root?tool_id=kobas_identify "KEGG Orthology Based Annotation System")
 [KisSplice](https://usegalaxy.eu/root?tool_id=kissplice "is a local transcriptome assembler for SNPs, indels and AS events")
@@ -974,6 +982,7 @@ description: "4240 tools and counting"
 [SNAP](https://usegalaxy.eu/root?tool_id=snap "gene prediction")
 [STR to bed](https://usegalaxy.eu/root?tool_id=microsatbed "Short Tandem Repeats to bed features from fasta")
 [Sanntis biosynthetic gene clusters](https://usegalaxy.eu/root?tool_id=sanntis_marine "in genomic and metagenomic data")
+[Search Protein Database](https://usegalaxy.eu/root?tool_id=logan_protein_search_database "Search FAISS database with embedded queries and align with MMseqs2")
 [Sex.DetERRmine](https://usegalaxy.eu/root?tool_id=sexdeterrmine "Calculate relative coverage")
 [Shine Find](https://usegalaxy.eu/root?tool_id=edu.tamu.cpt.genbank.shinefind "Identify shine-dalgarno sequences")
 [SignalP 3.0](https://usegalaxy.eu/root?tool_id=signalp3 "Find signal peptides in protein sequences")
@@ -1022,6 +1031,9 @@ description: "4240 tools and counting"
 [chewBBACA NSStats](https://usegalaxy.eu/root?tool_id=chewbbaca_nsstats "Retrieve basic information about the species and schemas in Chewie-NS")
 [chewBBACA PrepExternalSchema](https://usegalaxy.eu/root?tool_id=chewbbaca_prepexternalschema "Adapt an external schema to be used with chewBBACA")
 [compleasm](https://usegalaxy.eu/root?tool_id=compleasm "completeness of genome assemblies")
+[dashing2 dist](https://usegalaxy.eu/root?tool_id=dashing2_dist "compare sketches or sequences into a distance/similarity matrix")
+[dashing2 sketch](https://usegalaxy.eu/root?tool_id=dashing2_sketch "summarize sequence or feature collections and optionally compare them")
+[dashing2 wsketch](https://usegalaxy.eu/root?tool_id=dashing2_wsketch "sketch weighted sets of integral identifiers")
 [ectyper](https://usegalaxy.eu/root?tool_id=ectyper "ectyper is a standalone serotyping module for Escherichia coli. It supports fasta and fastq file formats.")
 [edta](https://usegalaxy.eu/root?tool_id=edta "Whole-genome de-novo TE annotation")
 [estimate-energy](https://usegalaxy.eu/root?tool_id=smf_utils_estimate-energy "Estimates whether a certain Segment(Loop) is present and for which delta-G this transistion takes place")
@@ -1067,6 +1079,7 @@ description: "4240 tools and counting"
 [phmmer](https://usegalaxy.eu/root?tool_id=hmmer_phmmer "search a protein sequence against a protein database (BLASTP-like)")
 [progressiveMauve](https://usegalaxy.eu/root?tool_id=progressivemauve "constructs multiple genome alignments")
 [psortb](https://usegalaxy.eu/root?tool_id=Psortb "Determines sub-cellular localisation of bacterial/archaeal protein sequences")
+[rMLST](https://usegalaxy.eu/root?tool_id=rmlst_cli "Identify species using the rMLST API")
 [scanMotifGenomeWide](https://usegalaxy.eu/root?tool_id=homer_scanMotifGenomeWide "")
 [segmentation-fold](https://usegalaxy.eu/root?tool_id=segmentation_fold "RNA-Folding including predefined segments including K-turns")
 [seq2HLA](https://usegalaxy.eu/root?tool_id=seq2hla "HLA genotype and expression from RNA-seq")
@@ -1132,6 +1145,13 @@ description: "4240 tools and counting"
 [SINA](https://usegalaxy.eu/root?tool_id=sina "reference based multiple sequence alignment")
 [Select Sequences](https://usegalaxy.eu/root?tool_id=selectsequencesfrommsa "Tool to select representative sequences from a multiple sequence alignment.")
 [Show-Coords](https://usegalaxy.eu/root?tool_id=mummer_show_coords "Parse delta file and report coordinates and other information")
+[Taffy add gap bases](https://usegalaxy.eu/root?tool_id=taffy_add_gap_bases "fills interstitial gaps in a TAF file")
+[Taffy annotate](https://usegalaxy.eu/root?tool_id=taffy_annotate "adds annotations from a Wiggle file to a TAF file")
+[Taffy coverage](https://usegalaxy.eu/root?tool_id=taffy_coverage "computes basic pairwise coverage stats for a TAF file")
+[Taffy norm](https://usegalaxy.eu/root?tool_id=taffy_norm "normalizes blocks in a TAF file")
+[Taffy sort](https://usegalaxy.eu/root?tool_id=taffy_sort "orders rows of TAF file")
+[Taffy stats](https://usegalaxy.eu/root?tool_id=taffy_stats "prints statistics from a TAF or MAF file")
+[Taffy view](https://usegalaxy.eu/root?tool_id=taffy_view "converts between TAF and MAF formats")
 [cawlign](https://usegalaxy.eu/root?tool_id=cawlign "Codon-aware (pairwise) alignment")
 [cd-hit](https://usegalaxy.eu/root?tool_id=cd_hit "Cluster or compare biological sequence datasets")
 [chainPreNet](https://usegalaxy.eu/root?tool_id=ucsc_chainprenet "Remove chains that don&#x27;t have a chance of being netted")
@@ -1244,6 +1264,7 @@ description: "4240 tools and counting"
 [MitoHiFi](https://usegalaxy.eu/root?tool_id=mitohifi "Assemble mitogenomes from Pacbio HiFi reads")
 [NOVOplasty](https://usegalaxy.eu/root?tool_id=novoplasty "de novo assembler for short circular genomes")
 [NextDenovo](https://usegalaxy.eu/root?tool_id=nextdenovo "string graph-based de novo assembler for long reads")
+[PECAT](https://usegalaxy.eu/root?tool_id=pecat "phased error correction and assembly of long reads")
 [Pairtools Stats](https://usegalaxy.eu/root?tool_id=pairtools_stats "Calculates pairs statistics for input pairs and pairsam files.")
 [Pairtools dedup](https://usegalaxy.eu/root?tool_id=pairtools_dedup "Find and remove PCR/optical duplicates")
 [Pairtools parse](https://usegalaxy.eu/root?tool_id=pairtools_parse "Find ligation pairs in alignments and create pairs.")
@@ -1311,6 +1332,7 @@ description: "4240 tools and counting"
 
 <div class="tool-list">
 
+[ALNchain](https://usegalaxy.eu/root?tool_id=alnchain "filter .1aln alignments into one-to-one global alignment")
 [Align sequences](https://usegalaxy.eu/root?tool_id=bioext_bealign "to a reference using a codon alignment algorithm")
 [BBTools: BBMap](https://usegalaxy.eu/root?tool_id=bbtools_bbmap "short-read aligner")
 [BWA-MEM2](https://usegalaxy.eu/root?tool_id=bwa_mem2 "- map medium and long reads (&gt; 100 bp) against reference genome")
@@ -1445,9 +1467,11 @@ description: "4240 tools and counting"
 [LUMPY preprocessing](https://usegalaxy.eu/root?tool_id=lumpy_prep "extracts discordant read pairs and split-read alignments from a BAM dataset")
 [Lofreq filter](https://usegalaxy.eu/root?tool_id=lofreq_filter "called variants posteriorly")
 [Manta](https://usegalaxy.eu/root?tool_id=manta "Manta calls structural variants (SVs) and indels from mapped paired-end sequencing reads.")
+[Merge PCR duplicates](https://usegalaxy.eu/root?tool_id=bctools_merge_pcr_duplicates "according to UMIs")
 [Naive Variant Caller (NVC)](https://usegalaxy.eu/root?tool_id=naive_variant_caller "- tabulate variable sites from BAM datasets")
 [Predict variant effects](https://usegalaxy.eu/root?tool_id=ensembl_vep "with VEP")
 [Realign reads](https://usegalaxy.eu/root?tool_id=lofreq_viterbi "with LoFreq viterbi")
+[Remove spurious](https://usegalaxy.eu/root?tool_id=bctools_remove_spurious_events "crosslinking events")
 [SNP distance matrix](https://usegalaxy.eu/root?tool_id=snp_dists "Compute distance in SNPs between all sequences in a FASTA file")
 [SnpEff Ensembl CDS](https://usegalaxy.eu/root?tool_id=SnpEff-cds-report "Report Variant coding sequence changes for SnpEffects")
 [SnpEff build:](https://usegalaxy.eu/root?tool_id=snpEff_build_gb "database from Genbank or GFF record")
@@ -1737,6 +1761,7 @@ description: "4240 tools and counting"
 [Read GC](https://usegalaxy.eu/root?tool_id=rseqc_read_GC "determines GC% and read count")
 [Read NVC](https://usegalaxy.eu/root?tool_id=rseqc_read_NVC "to check the nucleotide composition bias")
 [Read Quality](https://usegalaxy.eu/root?tool_id=rseqc_read_quality "determines Phred quality score")
+[Recount3](https://usegalaxy.eu/root?tool_id=recount3 "retrieves harmonized gene expression data from TCGA and GTEx")
 [Remove Unwanted Variation](https://usegalaxy.eu/root?tool_id=ruvseq "from RNA-seq data")
 [Sailfish](https://usegalaxy.eu/root?tool_id=sailfish "transcript quantification from RNA-seq data")
 [Salmon quant](https://usegalaxy.eu/root?tool_id=salmon "Perform dual-phase, reads or mapping-based estimation of transcript abundance from RNA-seq reads")
@@ -1756,6 +1781,7 @@ description: "4240 tools and counting"
 [StringTie](https://usegalaxy.eu/root?tool_id=stringtie "transcript assembly and quantification")
 [StringTie merge](https://usegalaxy.eu/root?tool_id=stringtie_merge "transcripts")
 [TEtranscripts](https://usegalaxy.eu/root?tool_id=tetoolkit_tetranscripts "annotates reads to genes and transposable elements")
+[TSENAT](https://usegalaxy.eu/root?tool_id=tsenat "Tsallis Entropy Analysis Toolbox")
 [TargetFinder](https://usegalaxy.eu/root?tool_id=targetfinder "plant small RNA target prediction tool")
 [Tophat Fusion Post](https://usegalaxy.eu/root?tool_id=tophat_fusion_post "post-processing to identify fusion genes")
 [Train a CheRRI model using RRIs](https://usegalaxy.eu/root?tool_id=cherri_train "")
@@ -1891,6 +1917,10 @@ description: "4240 tools and counting"
 
 <div class="tool-list">
 
+[Discriminant analysis of principal components (DAPC) to genotype data](https://usegalaxy.eu/root?tool_id=dapc_kmeans "using Kmeans or a k-fixed (SNPs and SSRs).")
+[Filtering SSR](https://usegalaxy.eu/root?tool_id=ssrfilter "for missing data (individuals and loci), and null alleles.")
+[Genetic Clustering](https://usegalaxy.eu/root?tool_id=LEA_snmf_application "with LEA (sNMF) for VCF or SSR data")
+[Genetic format conversion](https://usegalaxy.eu/root?tool_id=genetic_format_conversion "using PGDSpider and additional conversion modules.")
 [Keep or remove selected individuals](https://usegalaxy.eu/root?tool_id=population_genomics_vcf_keep_remove_individuals "from a VCF")
 [LDNe estimation](https://usegalaxy.eu/root?tool_id=effective_population_size_ld_method "using RLDNe package and NeEstimator.")
 [Population Genetics Statistics:](https://usegalaxy.eu/root?tool_id=population_genetics_stats "He, Hobs, Fis, allelic richness and pairwise values (Fst, DJost, Gst Nei)")
@@ -2094,8 +2124,16 @@ description: "4240 tools and counting"
 [SpatialData IO](https://usegalaxy.eu/root?tool_id=spatialdata_io "load common spatial omics formats into SpatialData")
 [SpatialData Operations](https://usegalaxy.eu/root?tool_id=spatialdata_operation "perform operations on SpatialData objects")
 [SpatialData Plot](https://usegalaxy.eu/root?tool_id=spatialdata_plot "rich static plotting from SpatialData objects")
+[Squidpy](https://usegalaxy.eu/root?tool_id=squidpy_graph "perform graph-based spatial analysis on SpatialData and AnnData objects")
+[Squidpy Plot](https://usegalaxy.eu/root?tool_id=squidpy_plot "plot spatial graph analysis results")
 [UNetCoreograph](https://usegalaxy.eu/root?tool_id=unet_coreograph "TMA core detection and dearraying")
 [UnMicst](https://usegalaxy.eu/root?tool_id=unmicst "Image segmentation - probability map generation")
+[WebAtlas Build Vitessce Config](https://usegalaxy.eu/root?tool_id=webatlas_build_config "from AnnData and image Zarr inputs")
+[WebAtlas Consolidate Metadata](https://usegalaxy.eu/root?tool_id=webatlas_consolidate_md "Converts an image to Zarr and consolidates metadata")
+[WebAtlas Generate Image](https://usegalaxy.eu/root?tool_id=webatlas_generate_image "Generate label/raw TIFF image from spatial metadata")
+[WebAtlas OME Zarr Metadata](https://usegalaxy.eu/root?tool_id=webatlas_ome_zarr_metadata "extraction as JSON")
+[WebAtlas Process Spatial datasets](https://usegalaxy.eu/root?tool_id=webatlas_router "into AnnData-Zarr")
+[WebAtlas Write](https://usegalaxy.eu/root?tool_id=webatlas_write_spatialdata "AnnData and images into SpatialData Zarr")
 [s3segmenter](https://usegalaxy.eu/root?tool_id=s3segmenter "single cell (nuclei and cytoplasm) label masks.")
 
 </div>
@@ -2980,14 +3018,19 @@ description: "4240 tools and counting"
 [NGSfilter](https://usegalaxy.eu/root?tool_id=obi_ngsfilter "Assigns sequence records to the corresponding experiment/sample based on DNA tags and primers")
 [obiannotate](https://usegalaxy.eu/root?tool_id=obi_annotate "Adds/Edits sequence record annotations")
 [obiclean](https://usegalaxy.eu/root?tool_id=obi_clean "tags a set of sequences for PCR/sequencing errors identification")
+[obicomplement](https://usegalaxy.eu/root?tool_id=obi_complement "Compute the reverse complement of the sequence entries.")
 [obiconvert](https://usegalaxy.eu/root?tool_id=obi_convert "converts sequence files to different output formats")
 [obigrep](https://usegalaxy.eu/root?tool_id=obi_grep "Filters sequence file")
 [obimultiplex](https://usegalaxy.eu/root?tool_id=obi_multiplex "Assigns sequence records to the corresponding experiment/sample based on DNA tags and primers")
 [obipairing](https://usegalaxy.eu/root?tool_id=obi_pairing "When DNA metabarcoding sequences are generated as paired reads on the Illumina platform, obipairing aims to align forward and reverse reads to generate full length amplicon sequences.")
+[obipcr](https://usegalaxy.eu/root?tool_id=obi_pcr "In sillico PCR")
+[obirefidx](https://usegalaxy.eu/root?tool_id=obi_refidx "Index sequence file according to a taxdump file")
 [obisort](https://usegalaxy.eu/root?tool_id=obi_sort "sorts sequence records according to the value of a given attribute")
 [obistat](https://usegalaxy.eu/root?tool_id=obi_stat "computes basic statistics for attribute values")
 [obitab](https://usegalaxy.eu/root?tool_id=obi_tab "converts sequence file to a tabular file")
-[obiuniq](https://usegalaxy.eu/root?tool_id=obi_uniq "")
+[obitag](https://usegalaxy.eu/root?tool_id=obi_tag "Taxonomic sequence annotation")
+[obitaxonomy](https://usegalaxy.eu/root?tool_id=obi_taxonomy "manage and request a taxonomy database")
+[obiuniq](https://usegalaxy.eu/root?tool_id=obi_uniq "groups identical sequences together")
 
 </div>
 
@@ -3231,6 +3274,7 @@ description: "4240 tools and counting"
 [Proteinortho clustering](https://usegalaxy.eu/root?tool_id=proteinortho_clustering "Spectral partitioning algorithm")
 [Proteinortho grab proteins](https://usegalaxy.eu/root?tool_id=proteinortho_grab_proteins "finds genes/proteins in a given fasta file")
 [Proteinortho summary](https://usegalaxy.eu/root?tool_id=proteinortho_summary "summaries the orthology-pairs/RBH files")
+[Proteins Mosaic Q](https://usegalaxy.eu/root?tool_id=protein_mosaic_q "Calculate Mosaic Q descriptors and visualise amino acid clustering")
 [ProteomIQon MzMLToMzLite](https://usegalaxy.eu/root?tool_id=proteomiqon_mzmltomzlite "converts mzML files to mzLite files.")
 [ProteomIQon PSMStatistics](https://usegalaxy.eu/root?tool_id=proteomiqon_psmstatistics "utilizes semi supervised machine learning techniques to integrate search engine scores as well as the mentioned quality scores into one single consensus score.")
 [ProteomIQon PeptideDB](https://usegalaxy.eu/root?tool_id=proteomiqon_peptidedb "creates a peptide database in the SQLite format.")
@@ -3314,6 +3358,7 @@ description: "4240 tools and counting"
 [eggNOG Mapper](https://usegalaxy.eu/root?tool_id=eggnog_mapper "functional sequence annotation by orthology")
 [eggNOG Mapper](https://usegalaxy.eu/root?tool_id=eggnog_mapper_annotate "annotation phase")
 [eggNOG Mapper](https://usegalaxy.eu/root?tool_id=eggnog_mapper_search "search phase")
+[freqSAP](https://usegalaxy.eu/root?tool_id=freqsap "Get frequencies of single amino-acid polymorphisms based on nucleid-acid polymorphism for different populations from UniProt and DbSNP")
 [idpAssemble](https://usegalaxy.eu/root?tool_id=idpassemble "Merge IDPicker databases from single files into a merged database, and filters the result at PSM/spectrum/peptide/protein/gene levels.")
 [idpEmbedder](https://usegalaxy.eu/root?tool_id=idpqonvertEmbedder "Embed human/mouse gene metadata into IDPicker files")
 [idpQonvert](https://usegalaxy.eu/root?tool_id=idpqonvert "Prepare identification results for IDPicker")
@@ -3326,6 +3371,9 @@ description: "4240 tools and counting"
 [metaQuantome: stat](https://usegalaxy.eu/root?tool_id=metaquantome_stat "differential analysis of functional expression and taxonomic abundance")
 [metaQuantome: visualize](https://usegalaxy.eu/root?tool_id=metaquantome_viz "taxonomic analysis, functional analysis, and function-taxonomy analysis results")
 [moFF](https://usegalaxy.eu/root?tool_id=proteomics_moff "extracts MS1 intensities from spectrum files")
+[mzspeclib convert](https://usegalaxy.eu/root?tool_id=mzspeclib_convert "Convert mass spectra files to mzspeclib format using mzspeclib.")
+[mzspeclib describe](https://usegalaxy.eu/root?tool_id=mzspeclib_describe "Summarize and describe mzspeclib files using mzspeclib.")
+[mzspeclib validate](https://usegalaxy.eu/root?tool_id=mzspeclib_validate "Validate mzspeclib files for format and content correctness using mzspeclib.")
 [pVACbind](https://usegalaxy.eu/root?tool_id=pvacbind "The pVACbind tool of the pVACtools suite.")
 [prot-scriber](https://usegalaxy.eu/root?tool_id=prot_scriber "Protein annotation of short human readable descriptions")
 [pyteomics](https://usegalaxy.eu/root?tool_id=mztab2tsv "convert mztab to tabular")
@@ -3423,6 +3471,7 @@ description: "4240 tools and counting"
 [bioconductor-msnbase centroid](https://usegalaxy.eu/root?tool_id=bioconductor_msnbase_centroid "centroid raw profile-mode MS data")
 [bioconductor-msnbase smooth chromatogram](https://usegalaxy.eu/root?tool_id=bioconductor_msnbase_smooth_chromatogram "smooth consecutive spectra using a moving window filter (combineSpectraMovingWindow)")
 [bioconductor-msnbase smooth mz](https://usegalaxy.eu/root?tool_id=bioconductor_msnbase_smooth_mz "smooth raw MS data in mass-to-charge ratio domain")
+[bioconductor-mzR convert](https://usegalaxy.eu/root?tool_id=bioconductor_mzr_convert "mass spectrometry data conversion")
 [dimet abundance plot](https://usegalaxy.eu/root?tool_id=dimet_abundance_plot "Figures of metabolites total abundance as barplots (by DIMet)")
 [dimet bivariate analysis](https://usegalaxy.eu/root?tool_id=dimet_bivariate_analysis "Computation of the correlation of MDV profiles, or the metabolite time course profiles (by DIMet)")
 [dimet differential analysis](https://usegalaxy.eu/root?tool_id=dimet_differential_analysis "Differential analysis of tracer metabolomics data comparing two groups (by DIMet)")
@@ -3463,8 +3512,9 @@ description: "4240 tools and counting"
 [msPurity.purityA](https://usegalaxy.eu/root?tool_id=mspurity_puritya "Assess acquired precursor ion purity of MS/MS spectra")
 [msPurity.purityX](https://usegalaxy.eu/root?tool_id=mspurity_purityx "Calculate the anticipated precursor ion purity from a LC-MS XCMS dataset.")
 [msPurity.spectralMatching](https://usegalaxy.eu/root?tool_id=mspurity_spectralmatching "Perform spectral matching to MS/MS spectral libraries")
+[mztab-m validate](https://usegalaxy.eu/root?tool_id=mztabm_validate "validate mztab-m files")
 [proFIA](https://usegalaxy.eu/root?tool_id=profia "Preprocessing of FIA-HRMS data")
-[rcx-tk](https://usegalaxy.eu/root?tool_id=rcx-tk "Processes and standardizes sequence, alkane or MSDial output files for downstream analysis.")
+[rcx-tk](https://usegalaxy.eu/root?tool_id=rcx-tk "Processes and standardizes sequence, alkane, or MSDial output files for downstream analysis.")
 [recetox-aplcms - align features](https://usegalaxy.eu/root?tool_id=recetox_aplcms_align_features "align peaks across samples")
 [recetox-aplcms - compute clusters](https://usegalaxy.eu/root?tool_id=recetox_aplcms_compute_clusters "compute clusters of mz and rt across samples and assign cluster IDs to individual features")
 [recetox-aplcms - compute template](https://usegalaxy.eu/root?tool_id=recetox_aplcms_compute_template "compute retention time correction template feature table")
@@ -3478,6 +3528,7 @@ description: "4240 tools and counting"
 [spec2vec similarity](https://usegalaxy.eu/root?tool_id=spec2vec_similarity "")
 [table arithmetics](https://usegalaxy.eu/root?tool_id=table_pandas_arithmetics "perform arithmetic operations on a dataframe column")
 [table column transformations](https://usegalaxy.eu/root?tool_id=table_pandas_transform "apply transformations on multiple columns")
+[table dropna](https://usegalaxy.eu/root?tool_id=table_pandas_dropna "drop rows or columns with NA values")
 [table rename column](https://usegalaxy.eu/root?tool_id=table_pandas_rename_column "of a table")
 [table rename columns via regex](https://usegalaxy.eu/root?tool_id=table_pandas_rename_columns_regex "rename columns in a table using regex")
 [table scipy interpolate](https://usegalaxy.eu/root?tool_id=table_scipy_interpolate "interpolate data using the scipy.interpolate library")
@@ -3724,6 +3775,7 @@ description: "4240 tools and counting"
 [Generalized linear models](https://usegalaxy.eu/root?tool_id=sklearn_generalized_linear "for classification and regression")
 [Generate](https://usegalaxy.eu/root?tool_id=sklearn_sample_generator "random samples with controlled size and complexity")
 [Hyperparameter Search](https://usegalaxy.eu/root?tool_id=sklearn_searchcv "performs hyperparameter optimization using various SearchCVs")
+[Image Learner](https://usegalaxy.eu/root?tool_id=image_learner "trains and evaluates an image classification/regression model")
 [LLM Hub](https://usegalaxy.eu/root?tool_id=llm_hub "Call any LLM")
 [Label encoder](https://usegalaxy.eu/root?tool_id=sklearn_label_encoder "Encode target labels with value between 0 and n_classes-1")
 [LightGBM](https://usegalaxy.eu/root?tool_id=sklearn_lightgbm "- train and apply LightGBM models")
@@ -3731,6 +3783,7 @@ description: "4240 tools and counting"
 [Machine Learning Visualization Extension](https://usegalaxy.eu/root?tool_id=ml_visualization_ex "includes several types of plotting for machine learning")
 [Model Prediction](https://usegalaxy.eu/root?tool_id=model_prediction "predicts on new data using a preffited model")
 [Model Validation](https://usegalaxy.eu/root?tool_id=sklearn_model_validation "includes cross_validate, cross_val_predict, learning_curve, and more")
+[Multimodal Learner](https://usegalaxy.eu/root?tool_id=multimodal_learner "Train and evaluate an AutoGluon Multimodal model (tabular + image + text)")
 [Nearest Neighbors Classification](https://usegalaxy.eu/root?tool_id=sklearn_nn_classifier "")
 [Numeric Clustering](https://usegalaxy.eu/root?tool_id=sklearn_numeric_clustering "")
 [Pipeline Builder](https://usegalaxy.eu/root?tool_id=sklearn_build_pipeline "an all-in-one platform to build pipeline, single estimator, preprocessor and custom wrappers")
@@ -3745,11 +3798,18 @@ description: "4240 tools and counting"
 [Split Dataset](https://usegalaxy.eu/root?tool_id=sklearn_train_test_split "into training and test subsets")
 [Stacking Ensembles](https://usegalaxy.eu/root?tool_id=sklearn_stacking_ensemble_models "builds stacking, voting ensemble models with numerous base options")
 [Support vector machines (SVMs)](https://usegalaxy.eu/root?tool_id=sklearn_svm_classifier "for classification")
+[Tabular Learner](https://usegalaxy.eu/root?tool_id=tabular_learner "applies and evaluates multiple machine learning models on a tabular dataset")
 [Tabular data prediction using TabPFN](https://usegalaxy.eu/root?tool_id=tabpfn "with PyTorch")
 [To categorical](https://usegalaxy.eu/root?tool_id=sklearn_to_categorical "Encodes labels to a one-hot encoded matrix and DNA sequences to one-hot and k-mer representations")
 [Train, Test and Evaluation](https://usegalaxy.eu/root?tool_id=sklearn_train_test_eval "fit a model using part of dataset and evaluate using the rest")
 [aoptk chemical identifier](https://usegalaxy.eu/root?tool_id=aoptk_chemical_identifier "Detect chemicals in scientific literature and filter based on a screening list.")
+[aoptk download publication data](https://usegalaxy.eu/root?tool_id=aoptk_download_publication_data "Download publication data - full text publications and figures, abstracts, or PDFs.")
+[aoptk final modification](https://usegalaxy.eu/root?tool_id=aoptk_final_modification "Finalize the output of relationship identification.")
+[aoptk find relationships chemicals](https://usegalaxy.eu/root?tool_id=aoptk_find_relationships_chemicals "Identify relationships between chemicals and effects.")
+[aoptk normalize chemicals](https://usegalaxy.eu/root?tool_id=aoptk_normalize_chemicals "Normalize chemical entities using LLMs.")
+[aoptk parse PDF](https://usegalaxy.eu/root?tool_id=aoptk_parse_pdf "Parse PDF files.")
 [aoptk publication tracker](https://usegalaxy.eu/root?tool_id=aoptk_publication_tracker "Tool to track publications.")
+[aoptk query literature](https://usegalaxy.eu/root?tool_id=aoptk_query_literature "Query literature for a list of publication IDs.")
 [chatGPT](https://usegalaxy.eu/root?tool_id=chatgpt_openai_api "Integrating OpenAI&#x27;s ChatGPT into Galaxy")
 [chopin2](https://usegalaxy.eu/root?tool_id=chopin2 "Domain-Agnostic Supervised Learning with Hyperdimensional Computing")
 [decontaminator](https://usegalaxy.eu/root?tool_id=decontaminator "Decontaminator is a deep learning helping tool that filters out phage or fungi contigs from plant virome RNAseq assemblies")
@@ -4132,6 +4192,7 @@ description: "4240 tools and counting"
 [MFA Align](https://usegalaxy.eu/root?tool_id=mfa_align "align a corpus using an acoustic model and dictionary")
 [MFA Find OOVs](https://usegalaxy.eu/root?tool_id=mfa_find_oovs "find words in a corpus that are missing from the dictionary")
 [MFA G2P](https://usegalaxy.eu/root?tool_id=mfa_g2p "generate a pronunciation dictionary from a word list or corpus")
+[MFA Merge](https://usegalaxy.eu/root?tool_id=mfa_merge "dictionaries")
 [MFA Remap Alignments](https://usegalaxy.eu/root?tool_id=mfa_remap_alignments "convert TextGrid transcriptions to a new phone set")
 [MFA Tokenize](https://usegalaxy.eu/root?tool_id=mfa_tokenize "split text into words using a tokenizer model (e.g., for Japanese/Chinese)")
 [MFA Train](https://usegalaxy.eu/root?tool_id=mfa_train "train a new acoustic model from a corpus")
@@ -4261,6 +4322,7 @@ description: "4240 tools and counting"
 [Apply ridge filter](https://usegalaxy.eu/root?tool_id=ridge_filter_skimage "with scikit-image")
 [Apply standard image filter](https://usegalaxy.eu/root?tool_id=ip_filter_standard "with scipy")
 [Build a workflow with BiaPy](https://usegalaxy.eu/root?tool_id=biapy "Accessible deep learning on bioimages")
+[COCO Annotation Visualizer](https://usegalaxy.eu/root?tool_id=coco_annotation_visualizer "Draw COCO bounding boxes, segmentation masks, and labels.")
 [COCO to LabelMe JSON Converter](https://usegalaxy.eu/root?tool_id=coco2labelme "Convert COCO annotation files into LabelMe-compatible JSON format")
 [Clip image intensities](https://usegalaxy.eu/root?tool_id=clip_image "with giatools")
 [Colocalization](https://usegalaxy.eu/root?tool_id=ip_colocalization "of two segmentation maps")
@@ -4300,6 +4362,7 @@ description: "4240 tools and counting"
 [DisplayDataOnImage](https://usegalaxy.eu/root?tool_id=cp_display_data_on_image "with CellProfiler")
 [DocLayout-YOLO](https://usegalaxy.eu/root?tool_id=doclayoutyolo "Enhancing document layout analysis")
 [Download IDR/OMERO](https://usegalaxy.eu/root?tool_id=idr_download_by_ids "")
+[Edit COCO Annotation](https://usegalaxy.eu/root?tool_id=edit_coco_annotation "Filter and rename tracks in a COCO annotation file")
 [Enhance contrast](https://usegalaxy.eu/root?tool_id=imagej2_enhance_contrast "with ImageJ2")
 [EnhanceOrSuppressFeatures](https://usegalaxy.eu/root?tool_id=cp_enhance_or_suppress_features "with CellProfiler")
 [Evaluate segmentation](https://usegalaxy.eu/root?tool_id=ip_visceral_evaluatesegmentation "with EvaluateSegmentation")
@@ -4313,6 +4376,8 @@ description: "4240 tools and counting"
 [Find datasets with similar ISCC-CODEs](https://usegalaxy.eu/root?tool_id=iscc_sum_similarity "with ISCC-SUM")
 [Find edges](https://usegalaxy.eu/root?tool_id=imagej2_find_edges "with ImageJ2")
 [Find maxima](https://usegalaxy.eu/root?tool_id=imagej2_find_maxima "with ImageJ2")
+[GROBID](https://usegalaxy.eu/root?tool_id=grobid_grobid "extract structured TEI XML from scholarly documents and patents")
+[GROBID DataStet](https://usegalaxy.eu/root?tool_id=grobid_dataset_annotate "identify dataset mentions in scientific articles")
 [Generate ISCC-CODE](https://usegalaxy.eu/root?tool_id=iscc_sum "with ISCC-SUM")
 [GrayToColor](https://usegalaxy.eu/root?tool_id=cp_gray_to_color "with CellProfiler")
 [IdentifyPrimaryObjects](https://usegalaxy.eu/root?tool_id=cp_identify_primary_objects "with CellProfiler")
@@ -4450,6 +4515,7 @@ description: "4240 tools and counting"
 [Interactive Pangeo Notebook](https://usegalaxy.eu/root?tool_id=interactive_tool_pangeo_notebook "")
 [Interactive Source Notebooks](https://usegalaxy.eu/root?tool_id=interactive_tool_source "Sea Observations Utility for Reprocessing, Calibration and Evaluation")
 [LiberTEM](https://usegalaxy.eu/root?tool_id=interactive_tool_libertem "Open Pixelated STEM platform")
+[Loom](https://usegalaxy.eu/root?tool_id=interactive_tool_loom "conversational AI analysis workbench")
 [NEAL](https://usegalaxy.eu/root?tool_id=interactive_tool_audiolabeler "Nature+Energy Audio Labeller audio data annotation tool")
 [Neo4j (Graph Database)](https://usegalaxy.eu/root?tool_id=interactive_tool_neo4j "")
 [ODV](https://usegalaxy.eu/root?tool_id=interactive_tool_odv "interactive plotting tool for geo-referenced data")
@@ -4471,6 +4537,7 @@ description: "4240 tools and counting"
 [Run Napari](https://usegalaxy.eu/root?tool_id=interactive_tool_napari "interactive tool")
 [STAC catalog](https://usegalaxy.eu/root?tool_id=interactive_tool_stac "for searching, aggregating and downloading data")
 [Scoop3-Argo](https://usegalaxy.eu/root?tool_id=interactive_tool_scoop3_argo "Interactive visual quality control of Argo netCDF files")
+[Scop3P Toolkit](https://usegalaxy.eu/root?tool_id=interactive_tool_scop3p_toolkit "an interactive framework for exploring and extending Scop3P across sequence, structure, proteomics and variant evidence.")
 [SimText](https://usegalaxy.eu/root?tool_id=interactive_tool_simtext_app "Interactive shiny app to explore SimText output data")
 [Terriamap](https://usegalaxy.eu/root?tool_id=interactive_tool_terriamap "Geospatial visualisation")
 [VCF (iobio) Visualisation](https://usegalaxy.eu/root?tool_id=interactive_tool_vcf_iobio "")
@@ -4527,6 +4594,7 @@ description: "4240 tools and counting"
 
 <div class="tool-list">
 
+[3Dtrees: Metadata](https://usegalaxy.eu/root?tool_id=3dtrees_metadata "Extract administrative and ecoregion metadata for a point-cloud collection")
 [BasicDesign](https://usegalaxy.eu/root?tool_id=rpbasicdesign "Build DNA-BOT input files from rpSBML")
 [CarveMe](https://usegalaxy.eu/root?tool_id=carveme "reconstruct genome-scale metabolic models")
 [DBKit Create](https://usegalaxy.eu/root?tool_id=ffindex_dbkit_create "database")
@@ -4814,7 +4882,7 @@ description: "4240 tools and counting"
 </div>
 <div class="tool-list">
 
-[hicCorrectMatrix](https://usegalaxy.eu/root?tool_id=hicexplorer_hiccorrectmatrix "run Imakaev&#x27;s iterative correction over a Hi-C contact matrix.")
+[hicCorrectMatrix](https://usegalaxy.eu/root?tool_id=hicexplorer_hiccorrectmatrix "run a Hi-C matrix correction algorithm")
 
 </div>
 <div class="tool-list">
@@ -4930,5 +4998,15 @@ description: "4240 tools and counting"
 <div class="tool-list">
 
 [chromap](https://usegalaxy.eu/root?tool_id=chromap "Fast alignment and preprocessing of chromatin profiles")
+
+</div>
+<div class="tool-list">
+
+[hicFindTADs](https://usegalaxy.eu/root?tool_id=hicexplorer_hicfindtads "identify TAD boundaries by computing the degree of separation of each Hi-C matrix bin")
+
+</div>
+<div class="tool-list">
+
+[hicPlotMatrix](https://usegalaxy.eu/root?tool_id=hicexplorer_hicplotmatrix "plot a Hi-C contact matrix heatmap")
 
 </div>
