@@ -2,7 +2,7 @@
 # THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY.
 # To update, run: python3 scripts/update-tools.py --server https://usegalaxy.eu --name "European Galaxy" --output content/eu/tools/index.md
 title: European Galaxy Tools
-description: "4420 tools and counting"
+description: "4432 tools and counting"
 ---
 
 
@@ -1082,6 +1082,11 @@ description: "4420 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=hmmer_hmmfetch" target="_top" title="retrieve profile HMM(s) from a file">hmmfetch</a>
 <a href="https://usegalaxy.eu/root?tool_id=hmmer_hmmscan" target="_top" title="search protein sequence(s) against a protein profile database">hmmscan</a>
 <a href="https://usegalaxy.eu/root?tool_id=hmmer_hmmsearch" target="_top" title="search profile(s) against a sequence database">hmmsearch</a>
+<a href="https://usegalaxy.eu/root?tool_id=impg_partition" target="_top" title="splits a cohort into windowed homologous loci">impg partition</a>
+<a href="https://usegalaxy.eu/root?tool_id=impg_query" target="_top" title="project ranges through pairwise alignments">impg query</a>
+<a href="https://usegalaxy.eu/root?tool_id=impg_refine" target="_top" title="tighten a locus to maximize spanning sample support">impg refine</a>
+<a href="https://usegalaxy.eu/root?tool_id=impg_similarity" target="_top" title="pairwise similarity between sequences in a region">impg similarity</a>
+<a href="https://usegalaxy.eu/root?tool_id=impg_stats" target="_top" title="summarize pairwise alignments">impg stats</a>
 <a href="https://usegalaxy.eu/root?tool_id=hmmer_jackhmmer" target="_top" title="iteratively search a protein sequence against a protein database (PSIBLAST-like)">jackhmmer</a>
 <a href="https://usegalaxy.eu/root?tool_id=krocus" target="_top" title="Multi-locus sequence typing (MLST) from uncorrected long reads">krocus</a>
 <a href="https://usegalaxy.eu/root?tool_id=legsta" target="_top" title="Legionella pneumophila sequence based typing">legsta</a>
@@ -1603,6 +1608,7 @@ description: "4420 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=odgi_viz" target="_top" title="variation graph visualizations">odgi viz</a>
 <a href="https://usegalaxy.eu/root?tool_id=pbgcpp" target="_top" title="Compute genomic consensus and call variants using PacBio reads mapped to a reference.">pbgcpp</a>
 <a href="https://usegalaxy.eu/root?tool_id=pharmcat" target="_top" title="Pharmacogenomics Clinical Annotation Tool">pharmCAT</a>
+<a href="https://usegalaxy.eu/root?tool_id=pixy" target="_top" title="Unbiased estimates of pi, dxy, fst, Watterson&#x27;s theta, and Tajima&#x27;s D from VCFs with invariant sites">pixy</a>
 <a href="https://usegalaxy.eu/root?tool_id=plink" target="_top" title="">plink</a>
 <a href="https://usegalaxy.eu/root?tool_id=sansa_annotate" target="_top" title="structural variants">sansa annotate</a>
 <a href="https://usegalaxy.eu/root?tool_id=seqwish" target="_top" title="Alignment to variation graph inducer">seqwish</a>
@@ -1845,6 +1851,8 @@ description: "4420 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=limma_voom" target="_top" title="Perform differential expression with limma-voom or limma-trend">limma</a>
 <a href="https://usegalaxy.eu/root?tool_id=masigpro" target="_top" title="Significant Gene Expression Profile Differences in Time Course Gene Expression Data">maSigPro</a>
 <a href="https://usegalaxy.eu/root?tool_id=mirnature" target="_top" title="Computational detection of canonical microRNAs">miRNAture</a>
+<a href="https://usegalaxy.eu/root?tool_id=mirtrace_qc" target="_top" title="quality control of small RNA sequencing data">miRTrace QC</a>
+<a href="https://usegalaxy.eu/root?tool_id=mirtrace_trace" target="_top" title="clade-specific miRNA profile for contamination detection">miRTrace Trace</a>
 <a href="https://usegalaxy.eu/root?tool_id=mirge3" target="_top" title="comprehensive small RNA-seq analysis">miRge3.0</a>
 <a href="https://usegalaxy.eu/root?tool_id=ngsderive_strandedness" target="_top" title="infers strandedness from RNA-seq BAM files">ngsderive strandedness</a>
 <a href="https://usegalaxy.eu/root?tool_id=presto_alignsets" target="_top" title="Multiple-align sequences with the same barcodes.">pRESTO AlignSets</a>
@@ -1991,6 +1999,7 @@ description: "4420 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=gafa" target="_top" title="generates an SQLite database that can be visualised with Aequatus">Gene Align and Family Aggregator</a>
 <a href="https://usegalaxy.eu/root?tool_id=ete_gene_csv_finder" target="_top" title="from a genetree using the ETE Toolkit">Gene Copy Number Finder</a>
 <a href="https://usegalaxy.eu/root?tool_id=gstf_preparation" target="_top" title="converts data for the workflow">GeneSeqToFamily preparation</a>
+<a href="https://usegalaxy.eu/root?tool_id=grapetree" target="_top" title="visualization of core genomic relationships among 100,000 bacterial pathogens">GrapeTree</a>
 <a href="https://usegalaxy.eu/root?tool_id=ete_homology_classifier" target="_top" title="from a genetree using the ETE Toolkit">Homology Classifier and Filter</a>
 <a href="https://usegalaxy.eu/root?tool_id=hyphy_b_still" target="_top" title="Bayesian Significance Test of Invariant Low Likelihoods">HyPhy-B-STILL</a>
 <a href="https://usegalaxy.eu/root?tool_id=hyphy_bgm" target="_top" title="- Detecting coevolving sites via Bayesian graphical models">HyPhy-BGM</a>
@@ -2541,6 +2550,7 @@ description: "4420 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=kraken_binarize" target="_top" title="binarise document images">Kraken Binarize</a>
 <a href="https://usegalaxy.eu/root?tool_id=kraken_ocr" target="_top" title="extract text from segmented or line document images">Kraken OCR</a>
 <a href="https://usegalaxy.eu/root?tool_id=kraken_segment" target="_top" title="segment text regions and lines in document images">Kraken Segment</a>
+<a href="https://usegalaxy.eu/root?tool_id=langchain_text_splitters" target="_top" title="Split text into chunks for LLM and RAG workflows">LangChain Text Splitters</a>
 <a href="https://usegalaxy.eu/root?tool_id=stanford_corenlp" target="_top" title="">Stanford CoreNLP Annotators (Multi-language)</a>
 <a href="https://usegalaxy.eu/root?tool_id=spacy_nlp" target="_top" title="">spaCy NLP Annotators</a>
 
@@ -2683,7 +2693,7 @@ description: "4420 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=instrain_profile" target="_top" title="Creates an inStrain profile (microdiversity analysis) from a mapping file">InStrain Profile</a>
 <a href="https://usegalaxy.eu/root?tool_id=humann_join_tables" target="_top" title="gene, pathway, or taxonomy HUMAnN/MetaPhlAn tables into a single table">Join (merge)</a>
 <a href="https://usegalaxy.eu/root?tool_id=kleborate" target="_top" title="screen genome assemblies of Klebsiella pneumoniae">Kleborate</a>
-<a href="https://usegalaxy.eu/root?tool_id=kmer2stats" target="_top" title="A tool that computes kmer alpha diversity metrics and other statistics">Kmer2Stats</a>
+<a href="https://usegalaxy.eu/root?tool_id=kmer2stats" target="_top" title="computes kmer alpha-diversity metrics and other statistics">Kmer2Stats</a>
 <a href="https://usegalaxy.eu/root?tool_id=kneaddata" target="_top" title="Quality control and contaminant removal for metagenomic data">KneadData</a>
 <a href="https://usegalaxy.eu/root?tool_id=kraken" target="_top" title="assign taxonomic labels to sequencing reads">Kraken</a>
 <a href="https://usegalaxy.eu/root?tool_id=kraken_taxonomy_report" target="_top" title="view report of classification for multiple samples">Kraken taxonomic report</a>
@@ -3992,6 +4002,7 @@ description: "4420 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=ggplot2_violin" target="_top" title="">Violin plot w ggplot2</a>
 <a href="https://usegalaxy.eu/root?tool_id=krona-text" target="_top" title="Visualise any hierarchical data">Visualize  with Krona</a>
 <a href="https://usegalaxy.eu/root?tool_id=volcanoplot" target="_top" title="create a volcano plot">Volcano Plot</a>
+<a href="https://usegalaxy.eu/root?tool_id=datavzrd_render" target="_top" title="Render visual and interactive HTML reports from tabular data">datavzrd</a>
 <a href="https://usegalaxy.eu/root?tool_id=gene_iobio_display_generation_iframe" target="_top" title="analyses VCFs for single and trio analysis to find causative variants using gene.iobio&#x27;s public server">gene.iobio visualisation</a>
 <a href="https://usegalaxy.eu/root?tool_id=emc-ggupset" target="_top" title="produces plots of relationships, similar to venn diagrams.">ggupset</a>
 <a href="https://usegalaxy.eu/root?tool_id=ggplot2_heatmap2" target="_top" title="">heatmap2</a>
@@ -4546,6 +4557,7 @@ description: "4420 tools and counting"
 <a href="https://usegalaxy.eu/root?tool_id=cellposesam" target="_top" title="with Cellpose-SAM">Run generalist cell and nucleus segmentation</a>
 <a href="https://usegalaxy.eu/root?tool_id=cp_save_images" target="_top" title="with CellProfiler">SaveImages</a>
 <a href="https://usegalaxy.eu/root?tool_id=ip_scale_image" target="_top" title="with scikit-image">Scale image</a>
+<a href="https://usegalaxy.eu/root?tool_id=sem_analysis" target="_top" title="segment fibers and measure their diameters">Scanning electron micrographs (SEM) fiber analysis</a>
 <a href="https://usegalaxy.eu/root?tool_id=pycytominer_feature_select" target="_top" title="with Pycytominer">Select informative features</a>
 <a href="https://usegalaxy.eu/root?tool_id=imagej2_sharpen" target="_top" title="with ImageJ2">Sharpen</a>
 <a href="https://usegalaxy.eu/root?tool_id=ip_imageinfo" target="_top" title="with Bioformats">Show image info</a>
