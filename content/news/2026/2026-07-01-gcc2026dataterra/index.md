@@ -2,7 +2,7 @@
 title: "Our journey in GCC2026 Clermont-Ferrand"
 date: "2026-07-01"
 tease: "A GCC2026 roadtrip, from Concarneau to Clermont"
-tags: [ecology, earth-system, conference, eosc]
+tags: [ecology, earth-system, conference, eosc, gcc]
 subsites: [all]
 contributions:
   authorship:
