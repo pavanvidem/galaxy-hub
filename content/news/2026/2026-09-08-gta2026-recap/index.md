@@ -17,7 +17,7 @@ From May 18–22, 2026, the **Galaxy Training Academy (GTA)** brought learners, 
 
 GTA2026 received **more than 2,200 registrations from 108 countries**, highlighting the truly global reach of the Galaxy community. Participants could choose from **11 training tracks**, explore hands-on tutorials, work directly in Galaxy, and learn at their own pace throughout the week.
 
-![Global distribution of registrations for Galaxy Training Academy 2026](GTA2026-map.png)
+![Global distribution of registrations for Galaxy Training Academy 2026](gta2026-map.png)
 
 The reach of GTA2026 reflects one of the core goals of the GTA: making high-quality computational training available to researchers wherever they are, regardless of location, time zone, institution, or previous experience with Galaxy.
 
@@ -47,7 +47,7 @@ Participants could work through tutorials, watch instructional videos, analyze d
 
 A highlight of GTA2026 was the **Meet the Experts** series, which gave participants a chance to hear directly from researchers and Galaxy community members working in fields represented throughout the GTA.
 
-![Galaxy Training Academy 2026 Meet the Experts schedule](Speaker-schedule.png)
+![Galaxy Training Academy 2026 Meet the Experts schedule](speaker-schedule.png)
 
 Throughout the week, participants met:
 
