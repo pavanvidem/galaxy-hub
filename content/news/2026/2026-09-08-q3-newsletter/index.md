@@ -103,7 +103,7 @@ The work behind Galaxy Labs was published this year in *GigaScience* in **“Com
 
 <p align="center">
   <a href="https://usegalaxy.ca/">
-    <img src="usegalaxy-ca-logo.png" alt="UseGalaxy Canada logo" style="width: 100%; max-width: 520px; height: auto;">
+    <img src="usegalaxy-ca-logo.png" alt="UseGalaxy Canada logo" style="width: 100%; max-width: 520px; height: auto;" />
   </a>
 </p>
 
@@ -126,7 +126,7 @@ The formal integration was highlighted at GCC2026 in Clermont-Ferrand with **“
 # From Data Portal to Galaxy Australia in One Click
 
 <p align="center">
-  <img src="BioCommons.webp" alt="Bioplatforms Australia Data Portal to Galaxy Australia data transfer" style="width: 100%; max-width: 760px; height: auto;">
+  <img src="biocommons.webp" alt="Bioplatforms Australia Data Portal to Galaxy Australia data transfer" style="width: 100%; max-width: 760px; height: auto;" />
 </p>
 
 *Image credit: Australian BioCommons / Bioplatforms Australia, CC BY 4.0.*
@@ -160,10 +160,10 @@ Two AI approaches are playing a particularly important role. Updated **YOLO** to
 For MOOREV, these capabilities have been tested on real biodiversity imagery, including crabs, winkles, fish, and birds. The examples show how Galaxy can make increasingly sophisticated imaging and AI methods available through the same reproducible environment used across many other research domains.
 
 <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin: 1.5rem 0;">
-  <img src="ecology1.png" alt="SAM3 identifying crabs and winkles in a MOOREV underwater image" style="width: 100%; height: auto;">
-  <img src="ecology2.png" alt="SAM3 identifying birds in an aerial survey image" style="width: 100%; height: auto;">
-  <img src="ecology3.png" alt="SAM3 detecting fish in a MOOREV underwater image" style="width: 100%; height: auto;">
-  <img src="ecology4.png" alt="SAM3 identifying fish in an aquarium image" style="width: 100%; height: auto;">
+  <img src="ecology1.png" alt="SAM3 identifying crabs and winkles in a MOOREV underwater image" style="width: 100%; height: auto;" />
+  <img src="ecology2.png" alt="SAM3 identifying birds in an aerial survey image" style="width: 100%; height: auto;" />
+  <img src="ecology3.png" alt="SAM3 detecting fish in a MOOREV underwater image" style="width: 100%; height: auto;" />
+  <img src="ecology4.png" alt="SAM3 identifying fish in an aquarium image" style="width: 100%; height: auto;" />
 </div>
 
 *Examples of SAM3 applied to biodiversity imagery in Galaxy, including MOOREV underwater images and bird and fish detection examples.*
