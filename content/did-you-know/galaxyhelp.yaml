@@ -14,7 +14,7 @@ subsites: [all]
 date: "2026-09-09"
 weight: 25
 images:
-  - url: /images/screenshots/GalaxyHelpHomePage.png
+  - url: /images/screenshots/galaxyhelp-home.png
     alt: Screenshot of the Galaxy Community Help forum
 links:
   - url: https://help.galaxyproject.org/
